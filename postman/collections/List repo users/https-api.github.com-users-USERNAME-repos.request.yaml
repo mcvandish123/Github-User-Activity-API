@@ -1,0 +1,15 @@
+$kind: http-request
+name: https://api.github.com/users/USERNAME/repos
+description: |-
+  Generated from cURL: curl -L \
+    -H "Accept: application/vnd.github+json" \
+    -H "Authorization: Bearer <YOUR-TOKEN>" \
+    -H "X-GitHub-Api-Version: 2026-03-10" \
+    https://api.github.com/users/USERNAME/repos
+url: https://api.github.com/users/USERNAME/repos
+method: GET
+headers:
+  Accept: application/vnd.github+json
+  Authorization: Bearer <YOUR-TOKEN>
+  X-GitHub-Api-Version: 2026-03-10
+order: 1791243754146

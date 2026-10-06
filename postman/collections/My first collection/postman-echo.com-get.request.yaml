@@ -1,0 +1,6 @@
+$kind: http-request
+name: postman-echo.com/get
+description: ""
+url: postman-echo.com/get
+method: GET
+order: 1791242835304

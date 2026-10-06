@@ -1,4 +1,7 @@
-import { fetchingDataGithub } from "./githubFetching.js";
+
 
 
 const search = process.argv.slice(2);
+const joinWords = search.join(' ');
+
+console.log(joinWords);
