@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import {fetchingAPI} from './githubFetching.js';
 
 function activityUsers() {

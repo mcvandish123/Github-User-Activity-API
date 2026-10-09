@@ -10,13 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/mcvandish123/Github-User-Activity-API.git"
   },
+  "bin": {
+    "github-activity": "./indexGit.js"
+  },
   "license": "ISC",
   "author": "",
   "type": "module",
   "main": "githubFetching.js",
-  "bin": {
-    "github-activity": "./indexGit.js"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
