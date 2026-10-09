@@ -128,10 +128,33 @@ const promise3 = new Promise((resolve, reject) => reject('promise3 success'));
 Promise.allSettled([promise1, promise2, promise3]).then((result) => {
   console.log('resolved', result);
 }); **/
+/**
+const value = async () => {
+  const data = await fetch('https://jsonplaceholder.typicode.com/users/1');
+  const json = await data.json();
+  return console.log(json);
+}
 
-fetch('https://api.github.com/users/tater/events')
+value();  
+
+fetch('https://jsonplaceholder.typicode.com/users/1', { 
+  method: 'PATCH',
+  headers: {
+    'Content-Type': 'application/json',
+  },
+  body: JSON.stringify({
+    name: 'Benjamin Asjali',
+    email: 'beasjali@addu.edu.ph'
+  }),
+  
+})
   .then(response => response.json())
-  .then(data => {
-    document.querySelector('#user-name').textContent = data.name
-    document.querySelector('#user-email').textContent = data.email
+  .then(data => console.log(data))
+  .catch(error => console.log(error)); **/
+
+  fetch('https://jsonplaceholder.typicode.com/users/1', { 
+  method: 'DELETE',
   })
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.log(error));
