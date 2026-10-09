@@ -9,4 +9,4 @@ In order to follow this project, follow the instructions below:
 https://github.com/mcvandish123/Github-User-Activity-API.git
 
 ### Input the following command:
-github-activity <username in github>
+github-activity <username>
